@@ -1,0 +1,314 @@
+/* Table of contents
+_______________________________________
+- Navigation
+- Page Elements
+- Typography
+- Links
+- Images
+- Scrolls
+*/
+
+@font-face {
+  src:url('../fonts/AkkuratStd-Bold.otf');
+  font-family: "AkkuratBold";
+}
+
+@font-face {
+  src:url('../fonts/AkkuratStd-BoldItalic.otf');
+  font-family: "AkkuratBoldItalic";
+}
+
+@font-face {
+  src:url('../fonts/AkkuratStd-Italic.otf');
+  font-family: "AkkuratItalic";
+}
+
+@font-face {
+  src:url('../fonts/AkkuratStd-Light.otf');
+  font-family: "AkkuratLight";
+}
+
+@font-face {
+  src:url('../fonts/AkkuratStd-LightItalic.otf');
+  font-family: "AkkuratLightItalic";
+}
+
+@font-face {
+  src:url('../fonts/AkkuratStd-Regular.otf');
+  font-family: "AkkuratRegular";
+}
+
+/* Responsive
+_______________________________________*/
+
+html {
+  box-sizing: border-box;
+}
+
+/* Navigation
+_______________________________________*/
+
+/* .main_nav ul {
+  display: grid;
+  grid-gap: 20px;
+} */
+
+.navigation_items_left {
+  margin: 0;
+  padding-right: 20px;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  float: left;
+}
+
+.navigation_items_container_right {
+  align-self: right;
+}
+
+.navigation_items_right {
+  margin: 0;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: right;
+  list-style: none;
+  float: right;
+}
+
+/*Typography
+_______________________________________*/
+
+h1 {
+  font-family: AkkuratRegular;
+  font-size: 30px;
+  text-align: left;
+  color: #262626;
+}
+
+h4 {
+  font-family: AkkuratLight;
+  font-size: 14px;
+  text-align: left;
+  color: #262626;
+  text-decoration: none;
+  text-align: center;
+}
+
+.infoText {
+  margin-top: 6em;
+  font-size: 24px;
+  line-height: 38px;
+  font-family: AkkuratLight;
+  max-width: 90%;
+}
+
+.infoText1 {
+  margin-top: 20em;
+  font-size: 16px;
+  line-height: 38px;
+  font-family: AkkuratLight;
+  max-width: 90%;
+  margin-left: 2em;
+}
+
+.title {
+  font-family: AkkuratBold;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 18%;
+  color: white;
+  /*overflow: hidden;*/
+}
+
+/*Page Elements
+_______________________________________*/
+
+.entry_typewritter {
+  font-family: AkkuratRegular;
+  font-size: 30px;
+  margin-top: 1em;
+  text-align: left;
+  margin-left: 1em;
+  line-height: 48px;
+  max-width: 80%;
+}
+
+.still_typewritter {
+  font-family: AkkuratRegular;
+  font-size: 30px;
+  margin-top: 1em;
+  text-align: left;
+  margin-left: 1em;
+  line-height: 48px;
+  max-width: 80%;
+}
+
+.svg_icons {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+/* Highlighted content
+_________________________________________ */
+
+header {
+  width: 100%;
+  margin-bottom: 100px;
+  position: absolute;
+  border: 2px solid blue;
+}
+
+body {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 5vh;
+  position: relative;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  position: absolute;
+}
+
+.main_container {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.home_tagline {
+  width: 100%;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+  position: absolute;
+  background-color: pink;
+}
+
+.scroll_container {
+  width: 100%;
+  margin-top: 80vh;
+  position: absolute;
+  text-align: center;
+  border: 2px solid blue;
+}
+
+.projects_container {
+  width: 100%;
+  margin-top: 93vh;
+  position: absolute;
+  background-color: pink;
+  z-index: 0;
+}
+
+.projects_1left {
+  height: 350px;
+  background-color: blue;
+  z-index: 1;
+}
+
+.projects_1right {
+  height: 350px;
+  background-color: yellow;
+  z-index: 1;
+}
+
+.contact_me {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  position: absolute;
+  text-align: center;
+}
+
+.icon_container {
+  width: 15%;
+  margin-top: 160px;
+  margin-bottom: 80px;
+  margin-left: 42.5%;
+  margin-right: 42.5%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: absolute;
+}
+
+.center_content {
+  align-self: center;
+}
+
+/* Links
+_________________________________________ */
+
+a.ex1:link {
+    color: black;
+    text-decoration: none;
+}
+a.ex1:visited {
+    color: black;
+    text-decoration: none;
+}
+a.ex1:hover {
+    text-decoration: none;
+}
+
+/*_______________________________________ */
+
+a.ex2:link {
+    color: #C83CFF;
+    text-decoration: none;
+}
+a.ex2:visited {
+    color: #C83CFF;
+    text-decoration: none;
+}
+a.ex2:hover {
+    text-decoration: none;
+}
+
+.btn_link {
+  text-decoration: none;
+}
+
+/* Images
+_______________________________________ */
+
+.img_proj1 {
+  /*background: url('../assets/flow.jpg');*/
+  width: 96.5vw;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+}
+
+/*Extras
+_______________________________________*/
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Hover
+_______________________________________*/
