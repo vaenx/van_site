@@ -94,6 +94,14 @@ h2 {
   color: #262626;
 }
 
+h3 {
+  font-family: AkkuratLight;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  color: #D0D0D0;
+}
 
 h4 {
   font-family: AkkuratLight;
@@ -211,7 +219,6 @@ _______________________________________*/
   display: block;
 }
 
-
 /* Highlighted content
 _________________________________________ */
 
@@ -268,7 +275,7 @@ footer {
 
 .projects_container {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 55px;
   position: absolute;
   z-index: 0;
 }
@@ -352,6 +359,10 @@ footer {
 
 .footer {
   margin-top: 15vh;
+}
+
+.footer_proj {
+  margin-top: 60vh;
 }
 
 /* Links
