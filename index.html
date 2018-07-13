@@ -8,6 +8,7 @@
    <script src="js/p5/p5.js"></script>
    <script src="js/typed.js"></script>
    <script src="js/script.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/grid.css">
@@ -19,49 +20,71 @@
       <header>
         <nav>
           <li class="navigation_items_left">
-            <h4>vanessa   |   product designer</h4>
+            <a class="ex2 btn_link" href="about.html"><h4>About</h4></a>
           </li>
         </nav>
         <div class="navigation_items_container_right">
           <li class="navigation_items_right">
-            <a class="btn_link" href="#"><h4>contact</h4></a>
+            <a class="ex2 btn_link" href="#contact"><h4>Contact</h4></a>
           </li>
         </div>
       </header>
+      <div class="home_nametitle">
+        <h5>Vanessa Vilela | Product Designer</h5>
+      </div>
       <div class="home_tagline">
-        <h1>oi</h1>
+        <h1 class="entry_typewritter"></h1>
       </div>
       <div class="scroll_container">
         <div class="scroll_hint">
-          <h4>scroll</h4>
+          <h4 class="animated infinite slideInUp">scroll</h4>
         </div>
-      </div>
       <main>
         <div class="projects_container">
-          <h1>projects</h1>
+          <h2 class="title_projects">Recent Work</h2>
           <div class="grid">
             <div class="grid__col grid__col--1-of-2 projects_1left">
-              fuck
+              <img src="assets/match_2016@2x.png" alt="Brixel Market" class="proj_image">
+              <div class="overlay">
+                <div class="overlay_text">
+                  <h1>Brixel Market</h1><h4>Product Design</h4>
+                </div>
+              </div>
             </div>
             <div class="grid__col grid__col--1-of-2 projects_1right">
-              no
+              <img src="assets/live_fitting_room.png" alt="Live Fitting Room" class="proj_image">
+              <div class="overlay">
+                <div class="overlay_text">
+                  <h1>Live Fitting Room</h1><h4>Concept</h4>
+                </div>
+              </div>
             </div>
             <div class="grid__col grid__col--1-of-2 projects_1left">
-              hell
+              <img src="assets/buildingfutures.jpg" alt="Building Futures" class="proj_image">
+              <div class="overlay">
+                <div class="overlay_text">
+                  <h1>Building Futures</h1><h4>Thesis Concept</h4>
+                </div>
+              </div>
             </div>
             <div class="grid__col grid__col--1-of-2 projects_1right">
-              yes
+              <img src="assets/workoutBud.png" alt="Workout Bud" class="proj_image">
+              <div class="overlay">
+                <div class="overlay_text">
+                  <h1>Workout Bud</h1><h4>Concept</h4>
+                </div>
+              </div>
             </div>
             <footer>
-              <div class="contact_me">
+              <div class="contact_me" id="contact">
                 <h4>Let's talk:</h4>
                 <h4>vanessaveigavilela@gmail.com</h4>
               </div>
               <div class="icon_container">
-                <a href="#"><img class="svg_icons" src="assets/dribbble.svg"/></a>
-                <a href="#"><img class="svg_icons" src="assets/linkedin.svg"/></a>
-                <a href="#"><img class="svg_icons" src="assets/instagram.svg"/></a>
-                <a href="#"><img class="svg_icons" src="assets/twitter.svg"/></a>
+                <a class="ex2" href="https://dribbble.com/vanessaveigavilela"><img class="svg_icons" src="assets/dribbble.svg"/><h4 class="icon_label">Dribbble</h4></a>
+                <a class="ex2" href="https://www.linkedin.com/in/vanessaveigavilela"><img class="svg_icons" src="assets/linkedin.svg"/><h4 class="icon_label">Linkedin</h4></a>
+                <a class="ex2" href="https://instagram.com/vanessaveigavilela"><img class="svg_icons" src="assets/instagram.svg"/><h4 class="icon_label">Instagram</h4></a>
+                <a class="ex2" href="#"><img class="svg_icons" src="assets/twitter.svg"/><h4 class="icon_label">Twitter</h4></a>
               </div>
             </footer>
           </div>
